@@ -1,0 +1,17 @@
+{
+  "name": "it.wilburmoney.app",
+  "version": "1.0.0",
+  "displayName": "wilburmoney",
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android",
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~7.1.1",
+    "cordova-browser": "^5.0.4",
+    "cordova-ios": "~4.5.5"
+  }
+}

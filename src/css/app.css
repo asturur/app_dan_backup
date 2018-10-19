@@ -1,1 +1,11 @@
 /* Your app styles here */
+.wilbur-button {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.block .block-title {
+  font-weight: bold;
+  color: black;
+}

@@ -3,14 +3,23 @@
   "version": "3.0.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "chart.js": "^2.7.3",
+    "eslint": "^4.15.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "7.7.0",
     "framework7": "^3.0.1",
-    "framework7-react": "^3.0.1",
     "framework7-icons": "^0.9.1",
+    "framework7-react": "^3.0.1",
     "material-design-icons": "^3.0.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "2.0.0-next.66cc7a90"
+    "react-redux": "5.0.7",
+    "react-scripts": "2.0.0-next.66cc7a90",
+    "redux": "^4.0.0"
   },
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -31,7 +40,7 @@
     ],
     "production": [
       ">1%",
-      "last 4 versions",
+      "last 24 versions",
       "Firefox ESR",
       "not ie < 11"
     ]
